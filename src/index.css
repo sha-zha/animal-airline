@@ -5,3 +5,30 @@
 .btn-orange{
   @apply bg-orange-400 p-3 rounded-xl text-zinc-50;
 }
+
+.circle {
+  width: 90px; /* Largeur du cercle */
+  height: 90px; /* Hauteur du cercle */
+  border-radius: 50%; /* Rend l'élément circulaire */
+  overflow: hidden; /* Cache tout ce qui dépasse du cercle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 15px solid bisque;
+}
+
+.circle-trans {
+  width: 90px; /* Largeur du cercle */
+  height: 90px; /* Hauteur du cercle */
+  border-radius: 50%; /* Rend l'élément circulaire */
+  overflow: hidden; /* Cache tout ce qui dépasse du cercle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle img {
+  width: 100%; /* L'image prend toute la largeur du cercle */
+  height: 100%; /* L'image prend toute la hauteur du cercle */
+  object-fit: cover; /* Assure que l'image s'ajuste bien au cercle sans déformation */
+}
