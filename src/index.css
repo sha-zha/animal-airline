@@ -32,3 +32,11 @@
   height: 100%; /* L'image prend toute la hauteur du cercle */
   object-fit: cover; /* Assure que l'image s'ajuste bien au cercle sans déformation */
 }
+
+input {
+  @apply block min-w-0 rounded-xl py-1.5 pl-1 pr-3 text-base text-gray-900 border-2 border-solid border-orange-500 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6 ;
+}
+
+select{
+  @apply bg-zinc-50 block min-w-0 rounded-xl py-1.5 pl-1 pr-3 text-base text-gray-900 border-2 border-solid border-orange-500 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6 ;
+}
