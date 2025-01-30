@@ -2,7 +2,7 @@
 
 import { Link } from 'react-router-dom';
 
-const navigation = [
+const navigationDash = [
   { name: 'Dashbord', href: '/dashbord'},
   { name: 'Mes annonces', href: '/dashbord/annonces' },
   { name: 'Les demandes', href: '/dashbord/demandes' },
@@ -24,7 +24,7 @@ function NavDash() {
         </div>
 
         <ul className="hidden lg:flex md:w-4/5 lg:justify-evenly">
-          {navigation.map((item) => (
+          {navigationDash.map((item) => (
             <li><Link className="text-sm/6 font-semibold text-gray-900" to={item.href}>{item.name}</Link>
             </li>
           ))}
