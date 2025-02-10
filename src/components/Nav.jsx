@@ -4,7 +4,7 @@ import '../index.css';
 
 const navigation = [
   { name: 'Accueil', href: '/' },
-  { name: 'Les annonces', href: '#annonces' },
+  { name: 'Les annonces', href: '/#annonces' },
   { name: 'Contact', href: '/contact' },
 ]
 
@@ -30,7 +30,7 @@ function Nav() {
             </a></li>
           ))}
           <li>
-            <a href="#" className="text-sm/6 font-semibold btn-orange">
+            <a href="/dashbord" className="text-sm/6 font-semibold btn-orange">
               Live Demo
             </a>
           </li>
