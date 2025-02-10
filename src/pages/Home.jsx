@@ -1,4 +1,5 @@
 import Nav from '../components/Nav';
+import AnimalCard from '../components/AnimalCard';
 
 function Home() {
   return (
@@ -21,9 +22,14 @@ function Home() {
       </section>
       <section className='container xl:container-xl my-8'>
         <div className='bg-lime-200 rounded-xl p-6 w-1/2 mx-auto'>
-          <h1 className='text-3xl font-bold'>Pourquoi choisir Animal Airline ?</h1>
+          <h1 className='text-3xl text-center font-bold'>Pourquoi choisir Animal Airline ?</h1>
         </div>
       </section>
+      <section className="container xl:container-xl my-8 h-auto w-full grid gap-4 grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 lg:grid-rows-4">
+          <AnimalCard name={"Raion"} type={"Chat"} photo={"/cat-1.png"} date={"05/02/2025"} />
+          <AnimalCard name={"Riri"} type={"Chien"} photo={"/dog-1.png"} date={"05/02/2025"} />
+          <AnimalCard name={"Loulou"} type={"Chien"} photo={"/dog-2.jpg"} date={"05/02/2025"} />
+        </section>
     </>
   )
 }

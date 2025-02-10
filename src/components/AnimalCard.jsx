@@ -2,7 +2,7 @@ function AnimalCard({ name, type, photo, date }) {
     return (
         <>
 
-            <div className="flex flex-col items-center bg-zinc-50/25 rounded-0 w-full h-full py-6 shadow-md">
+            <div className="flex flex-col items-center bg-zinc-50/25 rounded-0 w-full h-full py-6 shadow-md border boder-solid">
                 <img src={photo} className=" object-cover h-40" alt="" />
 
                 <div className="flex flex-row justify-evenly bg-zinc-50 w-4/5 shadow-lg rounded-xl p-3">
