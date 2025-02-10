@@ -21,7 +21,7 @@ function Home() {
         </div>
       </section>
       <section className='container xl:container-xl my-8'>
-        <div className='bg-lime-200 rounded-xl p-6 w-1/2 mx-auto'>
+        <div className='bg-lime-200 rounded-xl p-6 w-4/5 md:w-1/2 mx-auto'>
           <h1 className='text-3xl text-center font-bold'>Pourquoi choisir Animal Airline ?</h1>
         </div>
       </section>
