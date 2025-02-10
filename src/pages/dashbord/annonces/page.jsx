@@ -13,9 +13,7 @@ function Annonces() {
                     <Btn style={"btn-orange"} content={"créer une annonce"} />
                 </Action>
                 <section className="mt-6">
-                    
                         <Form></Form>
-                
                 </section>
 
                 <section className=" container mt-6 h-auto w-full grid gap-4 grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 lg:grid-rows-4">
